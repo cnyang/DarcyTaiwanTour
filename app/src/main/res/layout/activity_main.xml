@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cnyang.darcytaiwantour.MainActivity"
+    android:background="@drawable/taiwan">
+
+    <!--2015/08/24 taipei to taichung -->
+    <ImageButton
+        android:id="@+id/imgBtn_Day1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_pets_black_24dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/ic_pets_black_24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/Day1"/>
+    <!--2015/08/24~25 taichung to tainan-->
+    <ImageButton
+        android:id="@+id/imgBtn_Day2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_pets_black_24dp"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/ic_pets_black_24dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_below="@+id/imgBtn_Day1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/Day2"/>
+    <!--2015/08/25~26 tainan to kenting-->
+    <ImageButton
+        android:id="@+id/imgBtn_Day3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_pets_black_24dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:background="@drawable/ic_pets_black_24dp"
+        android:layout_alignBottom="@+id/imgBtn_Day5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:contentDescription="@string/Day3"/>
+    <!--2015/08/26~27 kenting to taitung-->
+
+    <!--2015/08/27~28 taitung to hualien-->
+    <ImageButton
+        android:id="@+id/imgBtn_Day5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_pets_black_24dp"
+        android:background="@drawable/ic_pets_black_24dp"
+        android:layout_above="@+id/imgBtn_Day4"
+        android:layout_toRightOf="@+id/imgBtn_Day4"
+        android:layout_toEndOf="@+id/imgBtn_Day4"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="78dp"
+        android:contentDescription="@string/Day5"/>
+    <!--2015/08/28~29 hualien to home-->
+    <ImageButton
+        android:id="@+id/imgBtn_Day6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_pets_black_24dp"
+        android:layout_below="@+id/imgBtn_Day2"
+        android:layout_alignRight="@+id/imgBtn_Day1"
+        android:layout_alignEnd="@+id/imgBtn_Day1"
+        android:background="@drawable/ic_pets_black_24dp"
+        android:contentDescription="@string/Day6"/>
+
+    <ImageButton
+        android:id="@+id/imgBtn_Day4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_pets_black_24dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/ic_pets_black_24dp"
+        android:contentDescription="@string/Day4"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imgBtn_Day2"
+        android:layout_toEndOf="@+id/imgBtn_Day2"/>
+
+
+</RelativeLayout>

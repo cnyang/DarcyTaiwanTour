@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">阿西日記</string>
+    <string name="Day1">Day1</string>
+    <string name="Day2">Day2</string>
+    <string name="Day3">Day3</string>
+    <string name="Day4">Day4</string>
+    <string name="Day5">Day5</string>
+    <string name="Day6">Day6</string>
+    <string name="timeline">timeline</string>
+    <string name="map">map</string>
+    <string name="D0824">15/08/24</string>
+    <string name="D0825">15/08/25</string>
+    <string name="D0826">15/08/26</string>
+    <string name="D0827">15/08/27</string>
+    <string name="D0828">15/08/28</string>
+    <string name="D0829">15/08/29</string>
+    <string name="Day">Day</string>
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cnyang.darcytaiwantour.MainActivity"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bandeau_timeline"
+        android:id="@+id/timeline"
+        android:contentDescription="@string/timeline"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/txt_D0824"
+            android:text="@string/D0824"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/D0824"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="normal|bold"
+            android:fontFamily="monospace"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="@string/D0825"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_D0825"
+            android:contentDescription="@string/D0825"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="normal|bold"
+            android:fontFamily="monospace"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:gravity="bottom"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="@string/D0826"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_D0826"
+            android:contentDescription="@string/D0826"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="normal|bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:clickable="true"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="@string/D0827"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_D0827"
+            android:contentDescription="@string/D0827"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="normal|bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:clickable="true"
+            android:gravity="bottom"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="@string/D0828"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_D0828"
+            android:contentDescription="@string/D0828"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="normal|bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:clickable="true"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="@string/D0829"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_D0829"
+            android:contentDescription="@string/D0829"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="normal|bold"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:gravity="bottom"
+            android:clickable="true"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
